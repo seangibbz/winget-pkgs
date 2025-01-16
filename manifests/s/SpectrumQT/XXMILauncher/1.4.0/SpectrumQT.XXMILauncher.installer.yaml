@@ -3,10 +3,17 @@ PackageIdentifier: SpectrumQT.XXMILauncher
 PackageVersion: 1.4.0
 ReleaseDate: 2025-01-05
 InstallerType: msi
+Scope: user
+UpgradeBehavior: install
 InstallModes:
 - silent
 - silentWithProgress
 - interactive
+ProductCode: '{3EBBF94D-D2C8-4D82-A805-277834613000}'
+AppsAndFeaturesEntries:
+- ProductCode: '{3EBBF94D-D2C8-4D82-A805-277834613000}'
+  UpgradeCode: '{5EBB1A78-20AD-47CF-95E8-78BCEDBB4D93}'
+ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x64
   InstallerUrl: https://github.com/SpectrumQT/XXMI-Launcher/releases/download/v1.4.0/XXMI-Launcher-Installer-Online-v1.4.0.msi
